@@ -22,22 +22,23 @@
 
 .course-card{
     background-color: #FBF6F6;
-    height: 260px;
+    height: 400px;
     width: 350px;
     border-radius: 10px;
     gap: 30px;
+    margin-bottom: 30px;
+    margin-top:40px;
 
 }
 
 .course-card:hover{
     transform: translateY(-8px);
     transition: 0.6s;
-    background-color: #9CD5FF;
+    background-color: #b1dcfb;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);;
     color: black;
     cursor: pointer;
 }
-
 
 .rating-card-course{
     display: flex;      
