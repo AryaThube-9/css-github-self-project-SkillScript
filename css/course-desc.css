@@ -1,0 +1,10 @@
+.description-info-container{
+    text-align: center;
+}
+
+.description-info-container p{
+   margin-left: 200px;
+   margin-right: 200px;
+   line-height: 1.6;
+   color: #333333;
+}
