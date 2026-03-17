@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/signup.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!-- Nav Bar -->
+    <div class="mian-container">
+        <div class="img-container">
+            <img src="../images/main-logo.jpg" alt="logo" class="main-class-logo">
+            <h2>SkillScript</h2>
+        </div>
+
+        <div class="nav-menu">
+            <a href="../index.html" class="menu">Home</a>
+            <a href="../html/courses.html" class="menu">Courses</a>
+            <a href="../html/course-description.html" class="menu">Course-Description</a>
+            <a href="" class="menu">Course-Syllabus</a>
+            <a href="" class="menu">About</a>
+            <a href="" class="menu">Contact</a>
+        </div>
+
+        <div class="nav-menu">
+            <a href="" class="menu">Login</a>
+            <a href="../html/signup.html" class="menu">Signup</a>
+        </div>
+    </div>
+
+    <div class="signup-container">
+        <form class="signup-form">
+            <h2>Create Account</h2>
+
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Your Address" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Enter Selected Course Name" required>
+            <label>Upload Your Aadhar Card</label>
+            <input type="file" accept="application/pdf" />
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+
+            <button type="submit">Sign Up</button>
+            <p>Already have an account? <a href="#">Login</a></p>
+        </form>
+        <img src="../images/signup-image.jpg" alt="signup">
+    </div>
 </body>
+
 </html>
