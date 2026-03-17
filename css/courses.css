@@ -10,11 +10,50 @@
     margin: 40px;
 }
 
-/* course card 
+/* course card  */
 
 .course-main-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-} */
+    gap: 35px;
+    margin-left: 200px;
+}
+
+.course-card{
+    background-color: #FBF6F6;
+    height: 260px;
+    width: 350px;
+    border-radius: 10px;
+    gap: 30px;
+
+}
+
+.rating-card-course{
+    display: flex;      
+  align-items: center; 
+  gap: 8px;
+  margin-top: 2px;   
+}
+
+.rating-card-course img{
+    padding-left: 10px;
+}
+
+.course-image{
+   width: 350px;
+    height: 260px;
+    border-radius: 0 0 18px 18px;
+    display: block;
+    object-fit: cover;
+}
+
+.course-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.offer-container{
+    padding-left: 10px;
+}
