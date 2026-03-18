@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background: linear-gradient(135deg, #f5f7fa, #e4ecf7); */
     background: whitesmoke;
     border-radius: 12px;
     width: 1100px;
@@ -12,7 +11,6 @@
     margin-left: 15%;
     text-align: justify;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1); 
-
 }
 
 .about-page-sub-container img{
