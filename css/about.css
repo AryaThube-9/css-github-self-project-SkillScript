@@ -90,7 +90,6 @@
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     text-align: center;
-    transition: 0.3s;
 }
 
 .cards:hover{
@@ -100,4 +99,26 @@
 
 .cards p{
     color: #555;
+}
+
+/* trainer part */
+.trainer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.trainers{
+    background: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 22px;
+    width: 300px;
+    margin: 20px;
+}
+
+.trainers:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
 }
