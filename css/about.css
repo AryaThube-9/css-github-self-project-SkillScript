@@ -66,3 +66,38 @@
     color: #555;
     font-size: 17px;
 }
+
+/* vision and mission css */
+.about-img{
+    height: 38px;
+}
+
+.vision-mission-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards{
+    background: white;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.cards p{
+    color: #555;
+}
