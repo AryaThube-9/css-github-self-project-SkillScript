@@ -3,24 +3,28 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #e1eaf2;
-    border-radius: 10px;
+    background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+    border-radius: 12px;
     width: 1100px;
     padding: 10px;
     padding-right: 20px;
     margin-left: 15%;
     text-align: justify;
-    box-shadow: 0px 5px 15px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); 
+
 }
 
 .about-page-sub-container img{
-    height: 500px;
+   width: 40%;
+    max-width: 400px;
 }
 
 .about-page-sub-container p{
+    width: 60%;
     line-height: 1.8;
-    width: 800px;
-    font-size: 16px;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
 .heading-about{
@@ -28,4 +32,37 @@
     color: #2c5364;
     text-align: center; 
 }
-   
+
+/* our achievement */
+.achievement-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.achieve-card{
+    background: white;
+    padding: 22px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.achieve-card:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.achieve-card h3{
+    font-size: 28px;
+    color: #3498db;
+    margin: 10px 0;
+}
+
+.achieve-card p {
+    color: #555;
+    font-size: 17px;
+}
