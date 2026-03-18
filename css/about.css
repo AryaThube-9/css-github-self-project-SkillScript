@@ -1,3 +1,31 @@
-body{
-    background-color: white;
+
+.about-page-sub-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e1eaf2;
+    border-radius: 10px;
+    width: 1100px;
+    padding: 10px;
+    padding-right: 20px;
+    margin-left: 15%;
+    text-align: justify;
+    box-shadow: 0px 5px 15px 0 rgba(0,0,0,0.1);
 }
+
+.about-page-sub-container img{
+    height: 500px;
+}
+
+.about-page-sub-container p{
+    line-height: 1.8;
+    width: 800px;
+    font-size: 16px;
+}
+
+.heading-about{
+    font-size: 29px;
+    color: #2c5364;
+    text-align: center; 
+}
+   
