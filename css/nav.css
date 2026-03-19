@@ -35,8 +35,8 @@ body{
 .menu{
     color: white;
     text-decoration: none;
-    
 }
 .menu:hover{
     color: #E97F4A;
+    text-decoration: underline;
 }

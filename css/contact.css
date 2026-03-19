@@ -76,6 +76,7 @@
 .contact-info-form{
      background-color: #F7F8F0;
      margin-left: 100px;
+     margin-bottom: 40px;
      padding: 10px;
      padding-bottom: 20px;
      border-radius: 10px;
@@ -94,9 +95,11 @@
     text-align: center;
 }
 
+/* feedback-form */
 .contact-info-form1{
     background-color: #F7F8F0;
      padding: 10px;
+     margin-bottom: 40px;
      padding-bottom: 20px;
      border-radius: 10px;
      border: 1px solid black;
@@ -104,10 +107,8 @@
      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);    
 }
 
-/* feedback-form */
-
 .contact-info-form1 input{
-     width: 300px;
+    width: 300px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 10px;
