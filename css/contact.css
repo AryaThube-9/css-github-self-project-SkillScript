@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    
     width: 500px;
     background-color: #F7F8F0;
     padding: 10px;
     border-radius: 15px;
     border: 1px solid black;
     margin: 20px 0 40px 33%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+
 }
 
 .contact-page-form h2{
@@ -62,4 +63,92 @@
 
 .contact-page-form h2{
    text-align: center;
+}
+
+/* contact information */
+.contact-main-container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 18%;
+}
+
+.contact-info-form{
+     background-color: #F7F8F0;
+     margin-left: 100px;
+     padding: 10px;
+     padding-bottom: 20px;
+     border-radius: 10px;
+     border: 1px solid black;
+     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+
+}
+
+.contact-info-form a{
+    text-decoration: none;
+    color: black;
+}
+.contact-info-form h2{
+    margin-bottom: 20px;
+    color: #1e4fb8;
+    text-align: center;
+}
+
+.contact-info-form1{
+    background-color: #F7F8F0;
+     padding: 10px;
+     padding-bottom: 20px;
+     border-radius: 10px;
+     border: 1px solid black;
+     width: 350px;
+     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);    
+}
+
+/* feedback-form */
+
+.contact-info-form1 input{
+     width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 9px;
+    
+}
+
+.contact-info-form1 textarea{
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 9px;
+}
+
+.contact-info-form1 h2{
+    margin-bottom: 20px;
+    color: #1e4fb8;
+    text-align: center;
+}
+
+.contact-info-form1 input:hover{
+  border-color: #1e4fb8;
+}
+
+.contact-info-form1 button{
+    width: 50%;
+    padding: 12px;
+    margin-left: 25%;
+    background:#1e4fb8 ;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.contact-info-form1 button:hover{
+    background: #163c8c;
 }
