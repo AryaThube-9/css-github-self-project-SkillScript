@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- nav bar -->
-     <div class="mian-container">
+    <div class="mian-container">
         <div class="img-container">
             <img src="../images/main-logo.jpg" alt="logo" class="main-class-logo">
             <h2>SkillScript</h2>
@@ -32,36 +35,48 @@
     </div>
 
     <!-- contact us info -->
-
-    <div class="contact-us-main-container"> 
-        <div class="form-card">   
+     <h2 class="heading-about">Contact Form</h2>
+    <div class="form-card">
+        <form class="contact-page-form">
             <h2>Send message</h2>
-            <form>
-                <input type="text" placeholder="Enter Name" required><br><br>
-                <input type="text" placeholder="Enter Address" required><br><br>
-                <input type="email" placeholder="Enter Email" required><br><br>
-                <input type="tel" placeholder="Enter Mobile Number:" required> <br><br>
-                Date: <input type="date" placeholder="Enter DOB"><br><br>
-                <input type="number" id="enterAge" placeholder="Enter age" required/><br><br>
-                <select id="course">
-                    <option>Select Your Course</option>
-                    <option>IT</option>
-                    <option>CS</option>
-                    <option>AI&ML</option>
-                    <option>Mechanical</option>
-                </select><br><br>
-                <input list="techOptions" placeholder="Enter Your college"/>
-                <datalist id="techOptions">
-                    <option>SVIT,chincholi Nashik</option>
-                    <option>pravara loni</option>
-                    <option>K.K. Wagh Institute of Engineering Education & Research, Nashik</option>
-                    <option>N.D.M.V.P. Samaj's Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</option>
-                    <option>College of Engineering, Pune (COEP)</option>
-                    <option>Government College of Engineering & Research, Avasari Khurd</option>
-                    <option>Pimpri Chinchwad College of Engineering (PCCOE)</option>
-                    <option>Pune Institute of Computer Technology (PICT)</option>
-                    <option>Bharati Vidyapeeth's College of Engineering (BVCOE), Pune</option>
-                </datalist><br><br>
+            <input type="text" placeholder="Enter Name" required><br><br>
+            <input type="text" placeholder="Enter Address" required><br><br>
+            <input type="email" placeholder="Enter Email" required><br><br>
+            <input type="tel" placeholder="Enter Mobile Number:" required> <br><br>
+            <input type="date" placeholder="Enter DOB"><br><br>
+            <input type="number" id="enterAge" placeholder="Enter age" required /><br><br>
+            <select id="branch">
+                <option>Select Your Branch</option>
+                <option>IT</option>
+                <option>CS</option>
+                <option>AI&ML</option>
+                <option>Mechanical</option>
+            </select><br><br>
+            <select id="course">
+                <option>Select Your selected course</option>
+                <option>C Programming</option>
+                <option>C++ Programming</option>
+                <option>Java Programming</option>
+                <option>Advanced Java Programming</option>
+                <option>Python Programming</option>
+                <option>Html & CSS Programming</option>
+                <option>Full Stack Programming</option>
+                <option>AWS</option>
+                <option>Databases Course</option>
+            </select><br><br>
+            <input list="techOptions" placeholder="Enter Your college" />
+            <datalist id="techOptions">
+                <option>SVIT,chincholi Nashik</option>
+                <option>pravara loni</option>
+                <option>K.K. Wagh Institute of Engineering Education & Research, Nashik</option>
+                <option>N.D.M.V.P. Samaj's Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</option>
+                <option>College of Engineering, Pune (COEP)</option>
+                <option>Government College of Engineering & Research, Avasari Khurd</option>
+                <option>Pimpri Chinchwad College of Engineering (PCCOE)</option>
+                <option>Pune Institute of Computer Technology (PICT)</option>
+                <option>Bharati Vidyapeeth's College of Engineering (BVCOE), Pune</option>
+            </datalist><br><br>
+            <div class="radio">
                 <label>Choose Gender</label><br>
                 <input type="radio" name="gender" id="male">
                 <label for="male">Male</label><br>
@@ -69,12 +84,11 @@
                 <label for="female">Female</label><br>
                 <input type="radio" name="gender" id="other">
                 <label for="other">Other</label><br><br>
-
-                <input type="submit" value="submit Form" />
-
-
-            </form>
-        </div>
+            </div>
+            <button type="submit">Submit Form</button><br><br>
+        </form>
     </div>
+
 </body>
+
 </html>

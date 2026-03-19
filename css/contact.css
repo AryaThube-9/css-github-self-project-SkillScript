@@ -1,0 +1,65 @@
+.form-card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    width: 500px;
+    background-color: #F7F8F0;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 20px 0 40px 33%;
+}
+
+.contact-page-form h2{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color: #1e4fb8;
+}
+
+.contact-page-form input{
+    width: 450px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 9px;
+}
+
+.contact-page-form select{
+ width: 470px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 9px;
+}
+.radio input{
+    width: 10px;
+}
+
+.contact-page-form input:hover{
+  border-color: #1e4fb8;
+}
+
+.contact-page-form button{
+    width: 50%;
+    padding: 12px;
+    margin-left: 25%;
+    background:#1e4fb8 ;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.contact-page-form button:hover{
+    background: #163c8c;
+}
+
+.contact-page-form h2{
+   text-align: center;
+}
