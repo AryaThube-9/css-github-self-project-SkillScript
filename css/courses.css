@@ -71,3 +71,14 @@ body{
     padding-left: 10px;
 }
 
+@media screen and (max-width: 768px) {
+
+    .course-main-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        gap: 2px;
+        margin-bottom: 5px;
+    }
+    
+}
