@@ -40,3 +40,45 @@ body{
     color: #E97F4A;
     text-decoration: underline;
 }
+
+.humburger img{
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .mian-container{
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .humburger img{
+        display: block;
+    }
+
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .menu-toggle:checked ~ .nav-menu{
+        display: flex;
+    }
+
+    .menu-toggle:checked ~ .humburger{
+        font-size: 28px;
+        content: 'x';
+    }
+
+    .menu{
+        font-size: 16px;
+    }
+}
