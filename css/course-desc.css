@@ -76,3 +76,21 @@ margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
 }
+
+/* media query for mobile phone */
+
+@media screen and (max-width: 768px) {
+    .description-info-container p{
+        margin-left: auto;
+        align-items: center;      
+        width: 400px;
+        height: 190px;
+        
+    }
+
+    .detail-desc-container{
+
+        display: flex;
+        flex-direction: column;
+    }
+}
