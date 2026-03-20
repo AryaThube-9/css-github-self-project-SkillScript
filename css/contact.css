@@ -157,3 +157,33 @@ body{
 .contact-info-form1 button:hover{
     background: #163c8c;
 }
+
+/* media query for mobile */
+@media screen and (max-width: 768px) {
+
+    .form-card{
+        height: auto;
+        width: auto;
+        margin-left: 15px;
+    }
+
+    .contact-page-form input{
+        height: auto;
+        width: auto;
+    }
+
+    .contact-main-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .contact-info-form{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .contact-info-form1{
+        margin-left: 10%;
+        height: auto;
+        width: auto;
+    }
+}
