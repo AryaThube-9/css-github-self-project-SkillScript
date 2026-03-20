@@ -27,7 +27,6 @@ body{
     color: white;
 }
 .nav-menu{
-
     display: flex;
     flex-direction: row;
     gap: 20px;

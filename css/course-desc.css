@@ -35,9 +35,7 @@ body{
 }
 
 .sub-desc-container:hover{
-
-    transform: translateY(-8px);
-    
+    transform: translateY(-8px);  
 }
 .sub-desc-container h3{
 margin-bottom: 10px;
