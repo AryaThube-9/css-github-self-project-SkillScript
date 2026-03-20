@@ -61,3 +61,17 @@
   text-decoration: underline;
 }
 
+/* signup page media query */
+@media screen and (max-width:768px) {
+    .signup-container{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+       width: auto;
+       margin-left: 10px;
+    }    
+
+    .signup-form input{
+      width: auto;
+    }
+}
