@@ -40,3 +40,13 @@
    padding-top: 0%;
    margin-left: 190px;
 }
+
+/* media query for reviews */
+@media screen and (max-width:500px) {
+    .reviews-main-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+}
