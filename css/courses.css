@@ -71,6 +71,7 @@ body{
     padding-left: 10px;
 }
 
+/* media query for mobile phone */
 @media screen and (max-width: 768px) {
 
     .course-main-container{
@@ -81,4 +82,17 @@ body{
         margin-bottom: 5px;
     }
     
+}
+
+/* media query for tablet */
+@media screen and (max-width: 992px) and (min-width: 600px) {
+
+    .course-main-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        gap: 2px;
+        margin-bottom: 5px;
+    }
+
 }
