@@ -140,3 +140,31 @@ body{
     text-decoration: none;
     color: black;
 }
+/* media query for about page */
+
+@media screen and (max-width: 768px) {
+    .about-page-sub-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    .about-page-sub-container p{
+        height: auto;
+        width: auto;
+    }
+
+    .achievement-container{
+        gap: 10px;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vision-mission-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
