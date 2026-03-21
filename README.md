@@ -5,8 +5,7 @@
 At SkillScript, we believe that learning should go beyond theory.Programming languages are used to give instructions to computers and build software, websites, and
 applications. Popular languages include Python, Java, C++, and JavaScript. Each language is used for
 different purposes like web development, app development, and data analysis. Learning programming
-improves problem-solving skills and career opportunities. Beginners should start with simple
-languages and practice regularly.
+improves problem-solving skills and career opportunities.
 ![special cake](./images/main-page-img.jpg)
 ---
 ### We Provide the wide range of the programming platform to the developers which include the following courses
@@ -20,6 +19,8 @@ languages and practice regularly.
 - Full Stack Programming
 - Aws
 - Databases
+  
+![special cake](./images/computer.jpg)
 
 ---
 ### The SkillScript Hub website consists of the following pages
@@ -41,7 +42,9 @@ languages and practice regularly.
 
 <a href="https://github.com/AryaThube-9/css-github-self-project-SkillScript/graphs/contributors"><img src="https://github.com/AryaThube-9.png" style="border-radius: 50%;"  width="100px;" alt="Arya"/></a>
 ---
+
 ### License
+
 This project is created for educational purposes only.
 ---
 
