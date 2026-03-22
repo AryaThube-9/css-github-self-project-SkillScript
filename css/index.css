@@ -1,3 +1,39 @@
+/* bg image */
+.background-section{
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),    
+    url('../images/bg-index-page-image.svg') no-repeat center/cover;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.background-section h1{
+  font-size: 48px;
+  line-height: 1.2;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.background-section p{
+   color: #dbeafe;
+  font-size: 18px;
+}
+
+.background-section button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #4988C4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 300;
+}
+
 /* main part css */
 
 .heading {
