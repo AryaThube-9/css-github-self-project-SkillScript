@@ -51,7 +51,8 @@ body{
     width: 50%;
     padding: 12px;
     margin-left: 25%;
-    background:#1e4fb8 ;
+    /* background:#1e4fb8 ; */
+    background-color: #4988C4;
     border: none;
     color: white;
     border-radius: 8px;
@@ -144,7 +145,8 @@ body{
     width: 50%;
     padding: 12px;
     margin-left: 25%;
-    background:#1e4fb8 ;
+    /* background:#1e4fb8 ; */
+    background-color: #4988C4;
     border: none;
     color: white;
     border-radius: 8px;

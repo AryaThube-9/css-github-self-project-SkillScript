@@ -51,7 +51,7 @@ body {
 .signup-form button {
   width: 92%;
   padding: 8px;
-  background: #1e4fb8;
+  background-color: #4988C4;
   border: none;
   color: white;
   border-radius: 8px;
@@ -93,7 +93,7 @@ body {
 
 /* left side part */
 .left-side-container img {
-  height: 600px;
+  height: 500px;
 }
 
 .left-side-container h1 {

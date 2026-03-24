@@ -21,9 +21,9 @@
 
 .cards-reviews:hover{
     background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-    transform: translateY(-10px);
-    transition: 0.3s;
-    border: 1px solid black;
+    transform: translateY(-7px);
+    transition: 0.5s;
+    border: 1px solid rgb(128, 128, 128);
 }
 
 .cards-reviews p{
