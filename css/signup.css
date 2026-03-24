@@ -27,7 +27,6 @@ body {
   width: 400px;
   padding: 20px;
   margin: 130px 200px 100px 200px;
-
 }
 
 .signup-form h2 {
@@ -111,4 +110,17 @@ body {
   line-height: 1.6;
 
   text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+  .main-contaienr{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form{
+    margin: auto;
+    margin-top: 20px;
+  }
 }
