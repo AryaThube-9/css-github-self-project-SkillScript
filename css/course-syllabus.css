@@ -35,3 +35,7 @@ body {
     transform: translateY(-4px);
     transition: 0.3s;
 }
+
+.footer-bottom{
+    background-color: #355872;
+}
